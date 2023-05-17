@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		}, {
+			"path": "pages/login/passwordlogin/passwordlogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/qrlogin/qrlogin",
+			"style": {
+				"navigationBarTitleText": "二维码登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recommendSong/recommendSong",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/songPlaydetail/songPlaydetail",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网易云音乐",
+		"navigationBarBackgroundColor": "#da0000",
+		"backgroundTextStyle": "light"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#ggg",
+		"selectedColor": "#da0000",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "static/image/tabs/tab-home.png",
+				"selectedIconPath": "static/image/tabs/tab-home-current.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text": "视频",
+				"iconPath": "static/image/tabs/tab-cate.png",
+				"selectedIconPath": "static/image/tabs/tab-cate-current.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "static/image/tabs/tab-my.png",
+				"selectedIconPath": "static/image/tabs/tab-my-current.png"
+			}
+		]
+	}
+}
